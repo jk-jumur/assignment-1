@@ -4,16 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+   background-color: #eef4ef;
+}
 /*shared style*/
 .font-inter-sans-serif{
   font-family: "Inter", sans-serif;
 
 }
 
-.logo img{
-    padding: 16px 120px;
-    
-}
+
 
 .btn{
   background: #30B868;
@@ -27,6 +28,10 @@
   
 
 }
+
+.hero-btn .btn-works{
+    margin-top:32px;
+}
 /*hover effect*/
 
 .btn:hover{
@@ -36,6 +41,7 @@
      font-style: italic;
      font-variant: inherit;
 }
+ 
 /*main style*/
 header{
    
@@ -70,3 +76,52 @@ nav .menu a{
 
 /*banner section*/
  
+.hero-content {
+    width: 100vw;          /* full viewport width */
+    min-height: 80vh;         /* optional: full screen height */
+    margin: 0;
+    padding: 60px 72px;
+
+    background:
+    radial-gradient(circle at 80% 20%, rgba(34, 81, 114, 0.5), transparent 50%),
+        url("../assets/hero-bg.png");
+
+    background-size: cover;    /* image full cover */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    position: relative;
+}
+
+.hero-pill {
+    display: inline-block;
+    background: #eef4ef;
+    color: #2a7d4b;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.hero h1 {
+    
+    font-family: Inter;
+  font-style: Bold;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+
+.hero-content .hero-not{
+   color:rgba(48, 184, 104, 1);
+}
+  .hero .hero-content .para{
+    padding-top: 16px;
+ }
+
+
