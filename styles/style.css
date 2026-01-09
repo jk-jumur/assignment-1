@@ -142,6 +142,10 @@ nav .menu a{
 
  /* note-section style*/
 
+ 
+
+    
+ 
 #notes{
    padding-top:132px;          /*notes style*/
   
@@ -158,6 +162,17 @@ nav .menu a{
           margin: 0 auto;
  }
 
+ .note-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+ }
+
+ .note-heading p{
+    padding-bottom: 44px;
+ }
+
+  
 /*note box style*/
  #notes .note-container .note-box{
         display: flex;
@@ -173,8 +188,11 @@ nav .menu a{
       padding: 20px;
      /* border:1px solid red;*/
       max-width: 322px;
-      box-shadow: 0 0 8 0 #00000052;
-      background-color:#FFFF;
+      box-shadow: 0 0 8 0 rgba(0, 0, 0, 0.06);
+      background-color:rgba(255, 255, 255, 1);
+      border-radius: 5px;
+
+
  }
  .note-card img{
      background-color: rgb(248.87,84.9509,84.9509);
@@ -185,7 +203,7 @@ nav .menu a{
 
 
  .note-card h3{ 
-     color:  #181818ec;;
+     color:  #001931ef;
      font-size: 24px;
      font-weight: 600px;
      line-height: 29px;
@@ -194,14 +212,15 @@ nav .menu a{
  .note-card p{
      font-size: 18px;
      line-height: 30px;
-     color: #757575;
+     color: #627382;
      padding-bottom: 16px;
 
  }
+
+/*Second section style*/
+
  
- .note-card img {
-    align-items: center;
- }
+ 
 
 
 
