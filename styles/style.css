@@ -14,7 +14,7 @@ body{
 
 }
 
-
+/*button style*/
 
 .btn{
   background: #30B868;
@@ -24,9 +24,17 @@ body{
   padding: 12px 16px;
   border: none;
   border-radius: 4px;
-   
   
+}
 
+.btn-works{
+     background-color:#0000001e;
+     color: white;
+     font-size: 16px;
+     font-weight: 600;
+     padding: 12px 16px;
+     border: 1px solid white;
+     border-radius: 4px;
 }
 
 .hero-btn .btn-works{
@@ -40,8 +48,16 @@ body{
      border-radius: 20px;
      font-style: italic;
      font-variant: inherit;
+     cursor: pointer;
 }
- 
+
+.btn-works:hover{
+   background-color: blue;
+   color:beige;
+   border-radius: 20px;
+
+}
+    
 /*main style*/
 header{
    
@@ -123,5 +139,73 @@ nav .menu a{
   .hero .hero-content .para{
     padding-top: 16px;
  }
+
+ /* note-section style*/
+
+#notes{
+   padding-top:132px;          /*notes style*/
+  
+}
+
+#notes .note-container{   
+  max-width: 1200px;         /*note-container style*/
+
+    margin:0 auto;
+}  
+/*note-heading style*/
+.note-container .note-heading{    
+          text-align: center;
+          margin: 0 auto;
+ }
+
+/*note box style*/
+ #notes .note-container .note-box{
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding: 24px;
+
+ }
+
+ .note-box .note-card{
+      padding: 20px;
+     /* border:1px solid red;*/
+      max-width: 322px;
+      box-shadow: 0 0 8 0 #00000052;
+      background-color:#FFFF;
+ }
+ .note-card img{
+     background-color: rgb(248.87,84.9509,84.9509);
+     width: 60px;
+     margin-bottom: 20px;
+ }
+
+
+
+ .note-card h3{ 
+     color:  #181818ec;;
+     font-size: 24px;
+     font-weight: 600px;
+     line-height: 29px;
+ }
+
+ .note-card p{
+     font-size: 18px;
+     line-height: 30px;
+     color: #757575;
+     padding-bottom: 16px;
+
+ }
+ 
+ .note-card img {
+    align-items: center;
+ }
+
+
+
+ 
+
 
 
